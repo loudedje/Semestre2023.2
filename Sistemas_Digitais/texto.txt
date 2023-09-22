@@ -1,0 +1,9 @@
+de 1 pra 1 não mudou nada
+de 1 pra 0 mudou
+
+
+Flip flop  são usados para armazenar estado.
+
+
+
+Karnaugh, Gray pra gray

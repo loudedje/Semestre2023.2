@@ -1,0 +1,1 @@
+latches, permitem que suas saídas mudem apenas na transição do relógio ou clock. Flip-Flop que dispara na subida do relógio (positive edge- triggered). Mostra suas entradas na saída quando o clock vai de do nível lógico'0' para o nível lógico '1'. Flip-Flop que dispara na descida do relógio (negative edge-triggered)
