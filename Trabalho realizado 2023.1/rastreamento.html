@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rastreamento de Pedido</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        #status {
+            margin: 20px 0;
+            padding: 20px;
+            background-color: #e0e0e0;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Rastreamento de Pedido</h2>
+
+        <div id="status">
+            <h3>Status do Pedido:</h3>
+            <p id="status-info">Aguardando preparação...</p>
+        </div>
+    </div>
+
+    <script>
+        // Simulação de informações de rastreamento (em uma aplicação real, isso viria do servidor)
+        const trackingData = [
+            { status: "Aguardando preparação..." },
+            { status: "Em preparação" },
+            { status: "Pronto para entrega" },
+            { status: "Em trânsito" },
+            { status: "Entregue" },
+        ];
+
+        // Função para atualizar o status de rastreamento
+        function updateStatus() {
+            const statusInfo = document.getElementById("status-info");
+            let currentIndex = 0;
+
+            function update() {
+                statusInfo.textContent = trackingData[currentIndex].status;
+                currentIndex = (currentIndex + 1) % trackingData.length;
+            }
+
+            update();
+            setInterval(update, 2000); // Atualize o status a cada 2 segundos (simulação)
+        }
+
+        updateStatus(); // Inicie a atualização do status
+    </script>
+</body>
+</html>

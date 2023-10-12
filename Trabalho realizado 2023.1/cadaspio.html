@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio do Restaurante</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        .menu-item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between; /* Adicionado alinhamento à direita para os botões */
+            border: 1px solid #ccc;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+
+        .menu-item img {
+            width: 100px; /* Ajuste a largura da imagem conforme necessário */
+            height: 100px; /* Ajuste a altura da imagem conforme necessário */
+            margin-right: 20px;
+        }
+
+        .menu-item h3 {
+            margin: 0;
+        }
+
+        .menu-item p {
+            margin: 5px 0;
+        }
+
+        .add-to-cart-button {
+            background-color: #007bff;
+            color: #fff;
+            padding: 5px 10px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .add-to-cart-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Cardápio do Restaurante</h2>
+
+        <div class="menu-item">
+            <img src="./download (1).jpeg" alt="Prato do Dia">
+            <div>
+                <h3>Prato do Dia</h3>
+                <p>Descrição: Um delicioso prato do dia com ingredientes frescos.</p>
+                <p>Opções Personalizadas: Sem opções</p>
+                <p>Preço: R$ 20.00</p>
+            </div>
+            <button class="add-to-cart-button">Adicionar ao Carrinho</button>
+        </div>
+
+        <div class="menu-item">
+            <img src="./8375fb024358a1f6477222405c2832e2.jpg" alt="Prato do Dia">
+            <div>
+                <h3>Prato do Dia</h3>
+                <p>Descrição: Um delicioso prato do dia com ingredientes frescos.</p>
+                <p>Opções Personalizadas: Sem opções</p>
+                <p>Preço: R$ 20.00</p>
+            </div>
+            <button class="add-to-cart-button">Adicionar ao Carrinho</button>
+        </div>
+
+        <div class="menu-item">
+            <img src="./images.jpeg" alt="Suco Natural">
+            <div>
+                <h3>Suco Natural</h3>
+                <p>Descrição: Suco refrescante feito com frutas frescas da estação.</p>
+                <p>Opções Personalizadas: Adicionar gelo (+R$1.00)</p>
+                <p>Preço: R$ 5.00</p>
+            </div>
+            <button class="add-to-cart-button">Adicionar ao Carrinho</button>
+        </div>
+
+        <div class="menu-item">
+            <img src="./Papaya-Juice-Recipe.jpg" alt="Suco Natural">
+            <div>
+                <h3>Suco Natural</h3>
+                <p>Descrição: Suco refrescante feito com frutas frescas da estação.</p>
+                <p>Opções Personalizadas: Adicionar gelo (+R$1.00)</p>
+                <p>Preço: R$ 10.00</p>
+            </div>
+            <button class="add-to-cart-button">Adicionar ao Carrinho</button>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,31 @@
+# Caso de Uso: Locar Automóvel
+
+## Caso de Uso Geral
+- **Ator Principal:** Funcionário
+- **Atores Secundários:** Cliente
+
+## Resumo
+Este caso de uso descreve as etapas percorridas por um funcionário para realizar a locação de um automóvel.
+
+## Pré-Condições
+- O cliente precisa estar cadastrado.
+
+## Pós-Condições
+Receber valor de caução.
+
+## Fluxo Principal
+| Ações do Ator             | Ações do Sistema           |
+|---------------------------|-----------------------------|
+| 1. Selecionar opção de locação de veículos |                             |
+| 2. Carregar clientes     |                             |
+| 3. Carregar veículos disponíveis |                            |
+| 4. Selecionar cliente    |                             |
+| 5. Selecionar veículo    |                             |
+| 6. Apresentar detalhes do automóvel |                        |
+| 7. Informar dados locação |                             |
+| 8. Calcular valor da locação e valor da caução |                |
+| 9. Fornecer valor da caução |                             |
+| 10. Registrar locação    |                             |
+
+## Restrições/Validações
+Qualquer restrição ou validação aplicável a este caso de uso pode ser listada aqui.

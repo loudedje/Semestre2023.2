@@ -1,0 +1,35 @@
+## Caso de Uso: Realizar Pedido de Comida
+
+### Caso de Uso Geral
+- **Ator Principal:** Cliente
+- **Atores Secundários:** Funcionário, Cozinheiro
+
+### Resumo
+Este caso de uso descreve as etapas que um cliente segue para realizar um pedido de comida no sistema "Comida dos Imigrantes".
+
+### Pré-Condições
+- O cliente deve estar autenticado no sistema.
+- O cliente deve ter navegado até a seção de pedidos.
+
+### Pós-Condições
+- O pedido é registrado no sistema e encaminhado para a cozinha para preparação.
+
+### Fluxo Principal
+| Ações do Ator              | Ações do Sistema                                       |
+|-----------------------------|--------------------------------------------------------|
+| 1. Selecionar categoria de comida |                              |
+| 2. Visualizar o cardápio do restaurante | Carregar as informações do cardápio na interface. |
+| 3. Selecionar um prato do cardápio |                                |
+| 4. Personalizar o pedido (opcional) |                              |
+| 5. Adicionar o prato ao carrinho | Atualizar o carrinho de compras.  |
+| 6. Visualizar o carrinho de compras |                              |
+| 7. Confirmar o pedido | Calcular o total do pedido e apresentar opções de pagamento. |
+| 8. Selecionar o método de pagamento |                                |
+| 9. Efetuar o pagamento | Registrar a transação e confirmar o pedido.  |
+
+### Fluxo Alternativo
+- Em qualquer ponto do Fluxo Principal, o cliente pode cancelar o pedido, levando-o de volta à visualização do cardápio.
+
+### Restrições/Validações
+- O sistema deve validar o estoque de itens no momento da adição ao carrinho.
+- O sistema deve garantir que as informações de pagamento sejam seguras e encriptadas.

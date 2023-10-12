@@ -1,12 +1,23 @@
+/* Estilos para a página inicial */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+    max-width: 1280px; /* Define a largura máxima para caber em telas de notebook */
+    margin: 0 auto; /* Centraliza a página horizontalmente */
+    padding: 20px;
+}
+
+.login-button {
+    float: right;
+    background-color: #40566d;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
 }
 
 header {
     background-color: #333;
     color: #fff;
+    text-align: center;
     padding: 10px 0;
 }
 
@@ -22,46 +33,22 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #333;
     text-decoration: none;
 }
 
-.carousel {
-    display: flex;
-    overflow: hidden;
-}
-
-.carousel img {
-    width: 100%;
-    height: auto;
-}
-
-.content {
-    text-align: center;
+/* Estilos para as seções */
+section {
+    margin: 20px 0;
     padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #f8f8f8;
 }
 
-.content h1 {
-    font-size: 36px;
-    margin-bottom: 10px;
-}
-
-.content p {
-    font-size: 18px;
-    margin-bottom: 20px;
-}
-
-.content a {
-    display: inline-block;
-    background-color: #ff6600;
+/* Estilos para o rodapé */
+footer {
+    background-color: #b80606;
     color: #fff;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-    transition: background-color 0.3s;
-}
-
-.content a:hover {
-    background-color: #e65300;
+    text-align: center;
+    padding: 10px 0;
 }
